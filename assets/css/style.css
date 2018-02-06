@@ -1,0 +1,41 @@
+.crystal {
+    color: white;
+    text-align: center;
+    background-color: cadetblue;
+    padding: 3%;
+    font-size: 50px;
+}
+
+.body {
+    color: white;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 3%;
+    margin: 3%;
+    font-size: 20px;
+}
+
+.scores {
+    color: white;
+    background-color: cadetblue;
+    text-align: center;
+    margin: 3%;
+    font-size: 20px;
+}
+
+
+.score{
+    color: white;
+    text-align: center;
+    background-color: cadetblue;
+    margin: 3%;
+    padding: 3%;
+    font-size: 20px;
+}
+.wins {
+    float: left;
+}
+
+.losses {
+    float: right;
+}
