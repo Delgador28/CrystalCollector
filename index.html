@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
     <title>Crystal Collector Game</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
@@ -24,28 +24,29 @@
 <!--Rules-->
     <div class="body">
         <div class="container">
-            <div class="row">
+          <div class="row">
             <div class="col-lg-6">
-        <p>Game will begin with a random number chosen.</p>
-            <br>
-        <p>There are four crystals below, by clicking on one of them you will add a specific amount of points to your total score.</p>
-            <br>
-        <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
-            <br>
-        <p>The value of each crystal is hidden from you until you click on it.</p>
-            <br>
-        <p>Everytime the game begins, the value of each crystal will change.</p>
+              <p>Game will begin with a random number chosen.</p>
 
-        <div class="pics">
+              <p>There are four crystals below, by clicking on one of them you will add a specific amount of points to your total score.</p>
+
+              <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+
+              <p>The value of each crystal is hidden from you until you click on it.</p>
+
+              <p>Everytime the game begins, the value of each crystal will change.</p>
+            </div>
+            <div class="col-lg-6">
+              <div class="pics">
                 <img src="assets/images/blue.png" class="crystals"  id="blue"></img>
                 <img src="assets/images/green.png" class="crystals" id="green"></img>
                 <img src="assets/images/red.png" class="crystals"  id="red"></img>
                 <img src="assets/images/yellow.png" class="crystals"  id="yellow"></img>
+              </div>
+          </div>
         </div>
-        </div>
-        </div>
-            </div>
-            </div>
+      </div>
+  </div>
 
 <!--Score-->
         <div class="score">
@@ -78,7 +79,7 @@
 <!--Total Score-->
     <div class="userTotal">
         <h2>Your total score is: </h2>
-        <p id="userTotal"></p>
+        <p id="userTotal">0</p>
     </div>
 </div>
 </div>
