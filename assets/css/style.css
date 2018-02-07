@@ -15,6 +15,15 @@
     font-size: 20px;
 }
 
+.container p {
+  margin-bottom: 20px;
+}
+
+img {
+  height: 90px;
+  margin-right: 2%;
+}
+
 .scores {
     color: white;
     background-color: cadetblue;
