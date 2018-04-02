@@ -1,14 +1,16 @@
 .crystal {
+    font-family: 'Pacifico', cursive;
     color: white;
     text-align: center;
-    background-color: cadetblue;
+    background-color: black;
     padding: 3%;
     font-size: 50px;
 }
 
 .body {
+    font-family: 'Buda', cursive;
     color: white;
-    background-color: cadetblue;
+    background-color: black;
     text-align: center;
     padding: 3%;
     margin: 3%;
@@ -16,6 +18,7 @@
 }
 
 .container p {
+    font-family: 'Buda', cursive;
   margin-bottom: 20px;
 }
 
@@ -25,8 +28,9 @@ img {
 }
 
 .scores {
+    font-family: 'Buda', cursive;
     color: white;
-    background-color: cadetblue;
+    background-color: black;
     text-align: center;
     margin: 3%;
     font-size: 20px;
@@ -34,17 +38,31 @@ img {
 
 
 .score{
+    font-family: 'Pacifico', cursive;
     color: white;
     text-align: center;
-    background-color: cadetblue;
+    background-color: black;
     margin: 3%;
     padding: 3%;
     font-size: 20px;
 }
 .wins {
     float: left;
+    margin-top: 20px;
+    
 }
 
 .losses {
     float: right;
+
+}
+
+body {
+  background-image: url("../images/back1.gif");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
