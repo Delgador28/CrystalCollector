@@ -26,12 +26,6 @@ $( document ).ready(function(){
 
 
 
-
-
-
-//Here I am picking a random number for randomNumber and I am doing it this way becuase... w3 school explained it ! Make sure to ask question to Manny on this.
-
-
 $('#randomNumber').text(randomNumber);
 
 var blue = Math.floor(Math.random()*11+1)
@@ -84,67 +78,4 @@ $("#userTotal").text(userTotal)
 }
 
 
-//------------------------
-// Blue Gem Functions:
-
-// $("#blue").on ("click", function(){
-//     userTotal = userTotal + blue;
-//     console.log("newUserTotal= " + userTotal);
-//     userScore();
-//
-        // if (userTotal == randomNumber){
-        //   winner();
-        // }
-        // else if (userTotal > randomNumber){
-        //   loser();
-        // }
-//   })
-//
-// //--------------------------
-//
-// //Red Gem Functions:
-//   $("#red").on("click", function(){
-//     userTotal = userTotal + red;
-//     console.log("newUserTotal= " + userTotal);
-//     userScore();
-//         if (userTotal === randomNumber){
-//           winner();
-//         }
-//         else if (userTotal > randomNumber){
-//           loser();
-//         }
-//   })
-//
-// //----------------------------
-//
-// //Green Gem Functions:
-//   $("#green").on ("click", function(){
-//       userTotal = userTotal + green;
-//       console.log("newUserTotal= " + userTotal);
-//       userScore();
-//
-//           if (userTotal == randomNumber){
-//             winner();
-//           }
-//           else if (userTotal > randomNumber){
-//             loser();
-//           }
-//     })
-//   //----------------------------
-//
-//   //Yellow Gem Functions:
-//   $("#yellow").on ("click", function(){
-//     userTotal = userTotal + yellow;
-//     console.log("newUserTotal= " + userTotal);
-//     userScore();
-//
-//           if (userTotal === randomNumber){
-//           winner();
-//         }
-//         else if (userTotal > randomNumber){
-//           loser();
-//         }
-//       })
-
-
-})  // Document Ready Function
+}) 
