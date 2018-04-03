@@ -23,7 +23,7 @@ Here we are giving each gem which are defined with the "img" tag, a value, the w
 
 ## Deployment
 
-Check out the game here: [Crystal Collector](https://delgador28.github.io/CrystalC…) - Happy Sorting!
+Check out the game here: [Crystal Collector](https://delgador28.github.io/CrystalC…) - Happy Playing!
 
 
 ## Made With
