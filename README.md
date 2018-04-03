@@ -7,8 +7,8 @@ In Crystal Collector the user will have four gem options, each assigned with a d
 
 User will begin by having four different gems, each one will be assigned with a different value, user will not know what the said value is until clicked, after knowing the value, user should try and match the "Random Number: " portion with accumulated values.
 
-![Trying it out](assets/images/crystalOne.gif)
-
+![Rules](assets/images/crystalOne.gif)
+![Example](assets/images/crystaltwo.gif)
 
 ### Want a Sneak Peak of the code? Well here you have it! 
 
